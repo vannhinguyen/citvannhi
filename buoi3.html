@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <fielset>
+    <form action="/action_page.php" method="get" target="">
+        <lable for="fname"> Tên của bạn là</lable>
+        <input type="text" id="name" name="fname">
+        <lable for="fname">Họ của bạn là</lable>
+        <input type="text" id="name" name="fname">
+        <lable for="car">Chọn xe</lable>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="merc" selected>Merc</option>
+            <option value="toyota">Toyota</option>
+            <option value="kia">KIA</option>
+        </select>
+        <lable for="message">Thông tin cá nhân</lable>
+        <textarea name="message" id="message" rows="10" cols="30"></textarea>
+        <button type="button" onclick="alert(HelloWorld)">click</button>
+        <input list="browers" name="browers">
+        <datalist id="browsers">
+        <option value="Edge">edge</option>    
+        <option value="firefpx">firefox</option>   
+        <option value="Chrome">chrome</option>   
+        <option value="Opera">oppera</option>   
+        <input type="submit">
+        </datalist>
+    </form>
+</fielset>
+
+
+</body>
+</html>
